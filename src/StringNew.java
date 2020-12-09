@@ -1,4 +1,4 @@
-public class EjemploString {
+public class StringNew {
     public static void main(String[] args) {
         String curso = "Programación";
         String curso2 = new String("Programación");

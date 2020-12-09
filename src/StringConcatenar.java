@@ -1,0 +1,25 @@
+public class StringConcatenar {
+    public static void main(String[] args) {
+        String curso = "Robótica";
+        String profesor = "Nick Burkhardt ";
+
+        String detalle = curso + " con el biólogo " + profesor;
+        System.out.println(detalle);
+
+        int numeroA = 10;
+        int numeroB = 5;
+
+        System.out.println(detalle + numeroA + numeroB);
+        System.out.println(detalle + (numeroA + numeroB));
+        System.out.println(numeroA + numeroB + detalle);
+
+        String detalle2 = curso.concat(" con ".concat(profesor));
+        System.out.println("detalle2 = " + detalle2);
+
+        String detalle3 = curso.concat(" con ").concat(profesor);
+        System.out.println("detalle3 = " + detalle3);
+    }
+}
+
+
+
