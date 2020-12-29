@@ -16,6 +16,20 @@ public class StringMethods {
         System.out.println("nombre.substring(1) = " + nombre.substring(1));
         System.out.println("nombre.substring(1, 4) = " + nombre.substring(1, 4));
         System.out.println("nombre.substring(nombre.length()-2) = " + nombre.substring(nombre.length()-2));
+
+        String property = "Reciprocity";
+
+        System.out.println("property.replace(\"R\",\"r\") = " + property.replace("R","r"));
+        System.out.println("property = " + property);
+        System.out.println("property.indexOf('1') = " + property.indexOf('i'));
+        System.out.println("property.lastIndexOf('i') = " + property.lastIndexOf('i'));
+        System.out.println("property.indexOf(\"o\") = " + property.indexOf("o"));
+        System.out.println("property.indexOf(\"city\") = " + property.indexOf("city"));
+        System.out.println("property.contains(\"city\") = " + property.contains("city"));
+        System.out.println("property.startsWith(\"city\") = " + property.startsWith("city"));
+        System.out.println("property.endsWith(\"city\") = " + property.endsWith("city"));
+        System.out.println(" property ");
+        System.out.println(" property ".trim());
     }
 }
 
